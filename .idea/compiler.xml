@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-api" />
+        <module name="springcloud-config-client" />
+        <module name="springcloud-config-server" />
+        <module name="springcloud-consumer-6081" />
+        <module name="springcloud-consumer-feign-6083" />
+        <module name="springcloud-consumer-ribbon-6082" />
+        <module name="springcloud-eureka-7081" />
+        <module name="springcloud-eureka-7082" />
+        <module name="springcloud-eureka-7083" />
+        <module name="springcloud-mapper" />
+        <module name="springcloud-model" />
+        <module name="springcloud-provider-8081" />
+        <module name="springcloud-provider-8082" />
+        <module name="springcloud-provider-8083" />
+        <module name="springcloud-provider-hystrix-8084" />
+        <module name="springcloud-service" />
+        <module name="springcloud-zuul-5081" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloudeurekamanagement" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

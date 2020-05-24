@@ -1,0 +1,6 @@
+springcloud的jar包管理--->专门负责consumer的jar包管理
+
+
+遇到数据处理时，consumer的controller层调用 provider的controller层
+只需要跟客户端打交道（只有页面）不需要数据的支持，所有数据来源都来自provider
+但是需要依赖model

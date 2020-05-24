@@ -1,0 +1,3 @@
+springcloud的jar包管理--->专门负责provider的jar包管理
+
+需要提供数据，必须连接数据库，依赖service
